@@ -52,9 +52,6 @@ const NavBar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li onClick={hideMenu}>
-                    <Link to="/form">Orientación</Link>
-                </li>
-                <li onClick={hideMenu}>
                     <Link to="/contact">Contacto</Link>
                 </li>
             </ul>

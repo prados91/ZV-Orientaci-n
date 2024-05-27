@@ -1,4 +1,5 @@
 import { Formik } from "formik";
+import { Link } from "react-router-dom";
 
 import './Main.css'
 const Main = () => {
@@ -8,7 +9,6 @@ const Main = () => {
 
         localStorage.removeItem('answers');
         localStorage.removeItem('user');
-
         localStorage.setItem('user', JSON.stringify({ name, lastname, age }));
         location.replace("/test")
     };
@@ -53,6 +53,7 @@ const Main = () => {
                         <input className="form__input" type="text" name="age" onChange={handleChange} onBlur={handleBlur} value={values.age} placeholder="Edad" />{errors.age && touched.age && errors.age}
                         <div className="button-form">
                             <button type="submit" className='button_link' disabled={isSubmitting}>Ir al test</button>
+                            <Link to="/test"> ir al test</Link>
                         </div>
                     </form>
                 )}

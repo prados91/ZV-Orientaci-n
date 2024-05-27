@@ -17,10 +17,10 @@ function App() {
             <NavBar />
             <Routes>
                 <Route exact path='/' element={<Main />} />
-                <Route exact path="/test" element={<QuestionContainer />} />
-                <Route exact path="/responses" element={<Responses />} />
-                <Route exact path="/contact" element={<Contact />} />
-                <Route exact path="/pdf" element={<RenderPDF />} />
+                <Route exact path='/test' element={<QuestionContainer />} />
+                <Route exact path='/responses' element={<Responses />} />
+                <Route exact path='/contact' element={<Contact />} />
+                <Route exact path='/pdf' element={<RenderPDF />} />
                 <Route exact path='*' element={<NotFound />} />
             </Routes>
             <Footer />

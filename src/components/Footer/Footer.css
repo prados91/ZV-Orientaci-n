@@ -1,6 +1,6 @@
 .footer-container {
-    background-color: #343330;
-    color: white;
+    background-color: var(--bgBlue);
+    color: var(--bgWhite);
     padding: 10px;
     height: 35px;
     width: 100%;

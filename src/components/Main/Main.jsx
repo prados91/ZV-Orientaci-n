@@ -52,8 +52,7 @@ const Main = () => {
                         <input className="form__input" type="text" name="lastname" onChange={handleChange} onBlur={handleBlur} value={values.lastname} placeholder="Apellido" />{errors.lastname && touched.lastname && errors.lastname}
                         <input className="form__input" type="text" name="age" onChange={handleChange} onBlur={handleBlur} value={values.age} placeholder="Edad" />{errors.age && touched.age && errors.age}
                         <div className="button-form">
-                            <button type="submit" className='button_link' disabled={isSubmitting}>Ir al test</button>
-                            <Link to="/test"> ir al test</Link>
+                            <Link type="submit" className='button_link' disabled={isSubmitting} to="/test"> ir al test</Link>
                         </div>
                     </form>
                 )}

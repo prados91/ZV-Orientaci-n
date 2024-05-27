@@ -23,7 +23,7 @@ const question = [
         id: 5,
         question: "¿Qué fortalezas y debilidades tengo?",
         category: "",
-    } /*
+    },
     {
         id: 6,
         question: "¿Cómo me ven los otros?",
@@ -198,7 +198,7 @@ const question = [
         id: 40,
         question: "¿Prefiero que me digan lo que tengo que hacer?",
         category: "",
-    },*/,
+    },
 ];
 export default question;
 

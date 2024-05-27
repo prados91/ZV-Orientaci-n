@@ -201,3 +201,5 @@ const question = [
     },*/,
 ];
 export default question;
+
+export const phoneNumber = "5492477631943";

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 import './Question.css'
 
@@ -8,7 +9,13 @@ function Question({ question, onSaveAnswer }) {
 
     const handleSave = () => {
         if (answer.trim() === '') {
-            alert('Por favor, escribe una respuesta.');
+            //alert('Por favor, escribe una respuesta.');
+            Swal.fire({
+                title: `Escribe una respuesta antes de confirmar`,
+                icon: "error",
+                confirmButtonColor: "#00b7b7",
+                confirmButtonText: "OK",
+            });
             return;
         }
         onSaveAnswer(answer);

@@ -149,4 +149,10 @@
         rotate: 225deg;
         transition: 0.5s;
     }
+
+    .navbar_logo {
+        height: 70px;
+        width: auto;
+        border: none;
+    }
 }

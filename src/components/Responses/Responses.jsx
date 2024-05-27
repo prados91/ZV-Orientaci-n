@@ -28,7 +28,7 @@ const Responses = () => {
                                 <p className="mb-1 text-p-color">{response.answer}</p>
                             </div>
                         ))}
-                        <Link to="/pdf" className='button_link mt-3'>Descargar PDF</Link>
+                        <Link to="/pdf" className='button_link mt-3'>Ver PDF</Link>
                         <Link to="/" className='button_link mt-3'>Volver al inicio</Link>
                     </div>
                 ) : (

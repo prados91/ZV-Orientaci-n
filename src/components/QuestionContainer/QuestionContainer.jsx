@@ -53,7 +53,7 @@ const QuestionContainer = () => {
 
     return (
         <div className='questionContainer-container'>
-            <div className="container p-0">
+            <div className="container ">
                 <div className='row'>
                     <h1>Orientación Vocacional</h1>
                     {currentQuestion ? (

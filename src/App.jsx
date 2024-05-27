@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Main from "./components/Main/Main";
 import InputFormContainer from "./components/InputFormContainer/InputFormContainer";
 import NotFound from './components/NotFound/NotFound'
+import Contact from "./components/Contact/Contact";
 function App() {
 
     return (
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route exact path='/' element={<Main />} />
                 <Route exact path="/form" element={<InputFormContainer />} />
+                <Route exact path="/contact" element={<Contact />} />
                 <Route exact path='*' element={<NotFound />} />
             </Routes>
             <Footer />

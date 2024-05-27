@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Responses.css'
-
 const Responses = () => {
     const [responses, setResponses] = useState([]);
     const [user, setUser] = useState([]);

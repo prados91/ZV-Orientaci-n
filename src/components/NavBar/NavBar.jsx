@@ -49,7 +49,7 @@ const NavBar = () => {
             </div>
             <ul className="NavbarLinks">
                 <li onClick={hideMenu}>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Inicio</Link>
                 </li>
                 <li onClick={hideMenu}>
                     <Link to="/contact">Contacto</Link>
